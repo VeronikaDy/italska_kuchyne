@@ -1,0 +1,18 @@
+.tabulka {
+    overflow-x: auto;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+tr:nth-child(2n) {
+    background: rgb(185, 185, 185);
+}
+tr:hover:not(:first-child) {
+    background-color: rgb(79, 79, 79);
+    color: white;
+}
+td, th {
+    text-align: center;
+    padding: 8px;
+}
